@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1, maximum-scale=1">
+    <link type="text/css" rel="stylesheet" href="style/main.css">
+    <meta charset="UTF-8">
+    <title>재능e 스마트캠퍼스</title>
+</head>
+<body>
+    <div class="cautionNotice"><a>⚠️ 앗 이런!<br>🤕 이 기기는 요구 사양을 만족하지 않습니다.<br>다른 기기로 다시 시도해주세요</a></div>
+    <header>
+        <div class="top">
+            <a href="main.html"><img class="logo" src="img/logo.png" alt="재능대학교 로고"></a>
+        </div>
+    </header>
+
+    <div class="back">
+    <div class="stuCard" id="stu">
+        <h1>김원정</h1>
+        <h2>학생</h2>
+        <hr>
+        <p>IT학부 AI컴퓨터정보과</p>
+        <a href="javascript:closePop()"><img class="stuImg" src="img/stuIcon.png" alt="학생증 아이콘"></a>
+        <h3>학생카드</h3>
+        <div>
+            <img class="profilePhoto" src="img/profile.png" alt="프로필">
+        </div>
+        <div>
+            <img class="barcode" src="img/barcode.png" alt="바코드">
+        </div>
+        <div>
+            <img class="jeiuLogo" src="img/logoWhite.png" alt="학교 로고">
+        </div>
+    </div>
+    </div>
+
+    <a href="javascript:openStu()">
+    <div class="loginCard" id="stuInfo">
+        <h1>김원정</h1>
+        <h2>학생</h2>
+        <hr>
+        <p>IT학부 AI컴퓨터정보과</p>
+        <img src="img/stuIcon.png" alt="학생증 아이콘">
+        <h3>학생카드</h3>
+    </div></a>
+
+    <div class="card">
+        <h1>공지사항</h1>
+        <a class="more" href="html/notice.html">더보기 +</a>
+        <dl>
+            <div class="listDeco">
+            <div class="articleTypeA" style="background: #FF3F14;"><a>학사</a></div>
+                <dt><a href="html/noticeUnder.html">재학생 및 복학예정자 등록금 3차 납부 안내</a></dt>
+            <dd>2022/03/07</dd>
+            </div>
+            <div class="listDeco">
+            <div class="articleTypeA" style="background: #F2B705;"><a>인사</a></div>
+            <dt>2022학년도 1학기 겸임교원 및 강사 초빙 공고(2차)</dt>
+            <dd>2022/02/09</dd>
+            </div>
+            <div class="listDeco">
+            <div class="articleTypeA" style="background: #FF3F14;"><a>학사</a></div>
+            <dt>코로나19 확산 방지 안내</dt>
+            <dd>2022/05/12</dd>
+            </div>
+            <div class="listDeco">
+            <div class="articleTypeA" style="background: #a4a4a4;"><a>시설</a></div>
+            <dt>교내 Wifi 서비스 안내</dt>
+            <dd>2022/03/07</dd>
+            </div>
+        </dl>
+    </div>
+
+    <div class="card">
+        <h1>바로가기</h1>
+            <table class="shortCutTable">
+                <tr>
+                    <td class="shortCut"><h1>학교소개</h1><h6>About University</h6></td>
+                    <td class="shortCut"><h1>교내식당</h1><h6>Cafeteria</h6></td>
+                </tr>
+                <tr>
+                    <td class="shortCut"><h1>학사 일정</h1><h6>Academic Schedule</h6></td>
+                    <td class="shortCut"><h1>버스 시간표</h1><h6>Bus Schedule</h6></td>
+                </tr>
+            </table>
+    </div>
+
+    <div class="card">
+        <h1>전체 서비스</h1>
+        <table>
+            <tr>
+                <td class="allServiceIcon"><img src="img/LMS.png" alt="원격교육서비스"></td>
+                <td class="allServiceIcon"><img src="img/internetCertificate.png" alt="인터넷증명발급"></td>
+                <td class="allServiceIcon"><img src="img/post.png" alt="우편증명발급"></td>
+                <td class="allServiceIcon"><img src="img/consultant.png" alt="진로체험"></td>
+                <td class="allServiceIcon"><img src="img/training.png" alt="현장실습"></td>
+            </tr>
+            <tr>
+                <td class="allServiceName"><h5>LMS<br>시스템</h5></td>
+                <td class="allServiceName"><h5>인터넷<br>증명발급</h5></td>
+                <td class="allServiceName"><h5>우편<br>증명발급</h5></td>
+                <td class="allServiceName"><h5>진로체험 및<br>상담신청</h5></td>
+                <td class="allServiceName"><h5>현장실습<br>(기관용)</h5></td>
+            </tr>
+            <tr>
+                <td class="allServiceIcon"><img src="img/resume.png" alt="자소서작성시스템"></td>
+                <td class="allServiceIcon"><img src="img/vision.png" alt="2030비전"></td>
+                <td class="allServiceIcon"><img src="img/scholarship.png" alt="장학제도"></td>
+                <td class="allServiceIcon"><img src="img/guideMap.png" alt="오시는 길"></td>
+            </tr>
+            <tr>
+                <td class="allServiceName"><h5>자소서 작성<br>시스템</h5></td>
+                <td class="allServiceName"><h5>비전 2030</h5></td>
+                <td class="allServiceName"><h5>장학제도</h5></td>
+                <td class="allServiceName"><h5>오시는 길</h5></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+    </footer>
+</body>
+<script>
+    const stuCard = document.getElementById("stu");
+    const stuInfo = document.getElementById("stuInfo");
+
+    function openStu() {
+        stuCard.style.display = "block";
+        stuInfo.style.display = "none";
+    }
+
+    function closePop() {
+        stuCard.style.display = "none";
+        stuInfo.style.display = "block";
+    }
+</script>
+</html>
